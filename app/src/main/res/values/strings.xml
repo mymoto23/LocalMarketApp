@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PasarDirekApp</string>
+
+    <array name="genders">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+
+    <string-array name="categories_array">
+        <item>Vegetable</item>
+        <item>Fruit</item>
+        <item>Meat</item>
+        <item>Dairy</item>
+    </string-array>
+
+    <string-array name="categories_filter_array">
+        <item>All</item>
+        <item>Vegetable</item>
+        <item>Fruit</item>
+        <item>Meat</item>
+        <item>Dairy</item>
+    </string-array>
+
+    <array name="customer_level">
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Level 4</item>
+    </array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

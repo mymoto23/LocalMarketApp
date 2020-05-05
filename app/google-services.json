@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "874630979985",
+    "firebase_url": "https://pasardirekapp.firebaseio.com",
+    "project_id": "pasardirekapp",
+    "storage_bucket": "pasardirekapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874630979985:android:ac974ff14aae023300fa30",
+        "android_client_info": {
+          "package_name": "com.example.pasardirekapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874630979985-3s6m08b0d76cl5s6j6pn07fna0qh2tqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pasardirekapp",
+            "certificate_hash": "78c5426d70ca592cfb904d2a87ad224152b3c09e"
+          }
+        },
+        {
+          "client_id": "874630979985-uht3eff3r939oun6l0dq6ncmfrs2shli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQYNPSBGOOEeGGw9mbF-zgg1pBH-CLfmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874630979985-uht3eff3r939oun6l0dq6ncmfrs2shli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

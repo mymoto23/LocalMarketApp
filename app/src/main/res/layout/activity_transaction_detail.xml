@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.TransactionDetailActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="198dp"
+        android:layout_height="597dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4sp"
+            android:text="Product Name"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4sp"
+            android:text="Supplier / Customer"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvContactName"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="customer name" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/aaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4sp"
+            android:text="Quantity"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvQuantity"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/Amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4sp"
+            android:text="Amount"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvAmount"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4sp"
+            android:text="Transaction Date"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="date" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="25dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
